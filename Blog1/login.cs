@@ -29,10 +29,11 @@ namespace Blog1
             else
             {
                 Console.WriteLine("Acceso Denegado");
+                Console.ReadKey();
+                Environment.Exit(0);
             }
             Console.ReadKey();
             Console.Beep();
-            Environment.Exit(0);
         }
     }
 }

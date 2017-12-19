@@ -8,7 +8,7 @@ namespace Blog1
 {
     class Lector : Blog
     {
-        public Lector (string titulo, string contenido, string intereses) : base (titulo,contenido,intereses)
+        public Lector (string titulo, string contenido, string result) : base (titulo,contenido, result)
         {
 
         }

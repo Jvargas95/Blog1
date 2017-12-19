@@ -8,7 +8,7 @@ namespace Blog1
 {
     class clima : Blog
     {
-        public clima (string titulo, string contenido, string intereses) : base (titulo,contenido,intereses)
+        public clima (string titulo, string contenido, string result) : base (titulo,contenido, result)
         {
 
         }

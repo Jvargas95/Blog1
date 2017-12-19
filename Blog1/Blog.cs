@@ -11,13 +11,13 @@ namespace Blog1
         public DateTime fechacreacion { get; set; }
         public string titulo { get; set; }
         public string contenido { get; set; }
-        public string intereses { get; set; }
+        public string result { get; set; }
 
-        public Blog(string Titulo, string Contenido, string Intereses)
+        public Blog(string Titulo, string Contenido, string Resultado)
         {
             this.titulo = Titulo;
             this.contenido = Contenido;
-            this.intereses = Intereses;
+            this.result = Resultado;
         }
     }
 }
