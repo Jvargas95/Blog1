@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Blog1
 {
-    class Lector
+    class Lector : Blog
     {
+        public Lector (string titulo, string contenido, string intereses) : base (titulo,contenido,intereses)
+        {
+
+        }
+
+        public string lee_not { get; set; }
     }
 }

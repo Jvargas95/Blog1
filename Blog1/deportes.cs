@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Blog1
 {
-    class deportes
+    class deportes : Blog
     {
+        public deportes (string titulo, string contenido, string intereses) : base (titulo,contenido,intereses)
+        {
+
+        }
+
+        public string Tennis { get; set; }
+        public string Futbol { get; set; }
+        public string Baloncesto { get; set; }
     }
 }

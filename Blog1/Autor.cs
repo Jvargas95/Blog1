@@ -8,7 +8,7 @@ namespace Blog1
 {
     class Autor : Blog
     {
-        public Autor(string titulo, string contenido, string intereses) : base (string Titulo, string Contenido, string Intereses)
+        public Autor(string titulo, string contenido, string intereses) : base (titulo,contenido,intereses)
         {
 
         }
