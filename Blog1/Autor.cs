@@ -13,7 +13,6 @@ namespace Blog1
 
         }
 
-        public string Escribe_not { get; set; }
         public string Pub_not { get; set; }
     }
 }
